@@ -5,11 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
 
-
-
     <groupId>com.github.xxscloud5722</groupId>
     <artifactId>mud-sdk</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <packaging>jar</packaging>
     <name>MUD-SDK</name>
     <description>
@@ -41,16 +39,24 @@
         <tag>1.2.0</tag>
     </scm>
 
+    <!--    <distributionManagement>-->
+    <!--        <snapshotRepository>-->
+    <!--            <id>ossrh</id>-->
+    <!--            <name>OSS Snapshots Repository</name>-->
+    <!--            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>-->
+    <!--        </snapshotRepository>-->
+    <!--        <repository>-->
+    <!--            <id>ossrh</id>-->
+    <!--            <name>OSS Staging Repository</name>-->
+    <!--            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>-->
+    <!--        </repository>-->
+    <!--    </distributionManagement>-->
+
     <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <name>OSS Snapshots Repository</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-        </snapshotRepository>
         <repository>
-            <id>ossrh</id>
-            <name>OSS Staging Repository</name>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>yuemia-default-ym</id>
+            <name>ym</name>
+            <url>https://yuemia-maven.pkg.coding.net/repository/default/ym/</url>
         </repository>
     </distributionManagement>
 
@@ -159,23 +165,6 @@
             <version>1.7.26</version>
         </dependency>
 
-        <dependency>
-            <groupId>dom4j</groupId>
-            <artifactId>dom4j</artifactId>
-            <version>1.6.1</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
-            <version>1.7.26</version>
-        </dependency>
-        <dependency>
-            <groupId>org.dom4j</groupId>
-            <artifactId>dom4j</artifactId>
-            <version>2.1.1</version>
-            <scope>compile</scope>
-        </dependency>
 
         <dependency>
             <groupId>com.alibaba</groupId>
