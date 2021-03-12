@@ -53,11 +53,11 @@
     <!--    </distributionManagement>-->
 
     <distributionManagement>
-        <repository>
-            <id>yuemia-default-ym</id>
-            <name>ym</name>
-            <url>https://yuemia-maven.pkg.coding.net/repository/default/ym/</url>
-        </repository>
+<!--        <repository>-->
+<!--            <id>yuemia-default-ym</id>-->
+<!--            <name>ym</name>-->
+<!--            <url>https://yuemia-maven.pkg.coding.net/repository/default/ym/</url>-->
+<!--        </repository>-->
     </distributionManagement>
 
     <properties>
@@ -99,20 +99,20 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-gpg-plugin</artifactId>
-                <version>1.5</version>
-                <executions>
-                    <execution>
-                        <id>ossrh</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>sign</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-gpg-plugin</artifactId>-->
+<!--                <version>1.5</version>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <id>ossrh</id>-->
+<!--                        <phase>verify</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>sign</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
             <!--Compiler -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
